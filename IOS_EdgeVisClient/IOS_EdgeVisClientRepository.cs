@@ -424,6 +424,18 @@ namespace IOS_EdgeVisClient
             RepoItemInfo _isthefrontendapplicationfromdigitaInfo;
             RepoItemInfo _logouttestaInfo;
             RepoItemInfo _buttonokInfo;
+            RepoItemInfo _manageInfo;
+            RepoItemInfo _editInfo;
+            RepoItemInfo _usernameInfo;
+            RepoItemInfo _passwordInfo;
+            RepoItemInfo _saveInfo;
+            RepoItemInfo _connectInfo;
+            RepoItemInfo _p2Info;
+            RepoItemInfo _connect1Info;
+            RepoItemInfo _isthefrontendapplicationfromdigita1Info;
+            RepoItemInfo _buttonok1Info;
+            RepoItemInfo _rightsideoptionsInfo;
+            RepoItemInfo _logouttesta1Info;
 
             /// <summary>
             /// Creates a new UIWindow  folder.
@@ -434,6 +446,18 @@ namespace IOS_EdgeVisClient
                 _isthefrontendapplicationfromdigitaInfo = new RepoItemInfo(this, "IsTheFrontEndApplicationFromDigita", ".//dom[@caption='- Help']/body/div/div//article/section/p[@innertext>'is the front end application']", 30000, null, "af5e69e5-652a-45f0-96f2-3f713caa7f8c");
                 _logouttestaInfo = new RepoItemInfo(this, "LogOutTestA", ".//table[@accessibilitylabel='Empty list']/?/?/cell[@accessibilitylabel='Log out TestA']/text[@accessibilitylabel='Log out TestA']", 30000, null, "430a0c44-b239-436e-badc-cdadbcf78a61");
                 _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "container[4]//button[@accessibilitylabel='OK']", 30000, null, "3b045cad-2345-47f0-bddc-820d0095dc73");
+                _manageInfo = new RepoItemInfo(this, "MANAGE", ".//container[@containertype='ViewControllerWrapper']/container/container[3]/?/?/button[@accessibilitylabel='MANAGE']", 30000, null, "06c10de1-549c-4858-85e2-e62f8643fe02");
+                _editInfo = new RepoItemInfo(this, "EDIT", ".//container[@containertype='ViewControllerWrapper']/container/container[3]/table/container[1]//button[@accessibilitylabel='EDIT']", 30000, null, "8f9188bb-f951-4479-afbf-9f3a573dc6bf");
+                _usernameInfo = new RepoItemInfo(this, "Username", "container[1]/?/?/container[@containertype='ViewControllerWrapper']/container/container[1]//container[@containertype='ViewControllerWrapper']/container/text[3]", 30000, null, "d7d5aec6-3175-4c9f-a73f-f46eb546798f");
+                _passwordInfo = new RepoItemInfo(this, "Password", "container[1]/?/?/container[@containertype='ViewControllerWrapper']/container/container[1]//container[@containertype='ViewControllerWrapper']/container/text[5]", 30000, null, "b18c570f-7c5b-4433-84d0-f45779863c28");
+                _saveInfo = new RepoItemInfo(this, "SAVE", "container[1]/?/?/container[@containertype='ViewControllerWrapper']/container/container[1]//container[@containertype='ViewControllerWrapper']/?/?/button[@accessibilitylabel='SAVE']", 30000, null, "e2691a0d-bc2d-4bdc-af20-825560bceb50");
+                _connectInfo = new RepoItemInfo(this, "CONNECT", ".//container[@containertype='ViewControllerWrapper']/container/container[3]/table/container[1]//button[@accessibilitylabel='CONNECT']", 30000, null, "4c97ae9c-9cae-42d7-974c-06dbe78c56e2");
+                _p2Info = new RepoItemInfo(this, "P2", "container[1]/?/?/container[@containertype='ViewControllerWrapper']/container/container[1]//container[@containertype='ViewControllerWrapper']/container/text[4]", 30000, null, "8e77becc-0098-48ca-9201-4b05c2d70f04");
+                _connect1Info = new RepoItemInfo(this, "CONNECT1", "container[1]/?/?/container[@containertype='ViewControllerWrapper']/container/container[1]//container[@containertype='ViewControllerWrapper']/?/?/button[@accessibilitylabel='CONNECT']", 30000, null, "7015c1f7-4507-4698-ad73-2063902f5689");
+                _isthefrontendapplicationfromdigita1Info = new RepoItemInfo(this, "IsTheFrontEndApplicationFromDigita1", "container[1]/container[@containertype='']/container[@caption='']/container[@caption='']/container[@caption='']/container[1]/dom[@caption='- Help']/body/div/div//article/section/p[@innertext>'is the front end application']", 30000, null, "36c70758-6a3a-437c-bae4-55ac9f9d74d0");
+                _buttonok1Info = new RepoItemInfo(this, "ButtonOK1", "container[1]/container[@containertype='']/container[@caption='']/container[@caption='']/container[@caption='']/container[4]/button[@accessibilitylabel='OK']", 30000, null, "fdb96fab-d9b3-4db5-a4db-6ed7e23db111");
+                _rightsideoptionsInfo = new RepoItemInfo(this, "RightsideOptions", "?/?/container[@containertype='LayoutContainer']/container[@caption='']/container/container[@caption='']/container[1]/?/?/button[@accessibilitylabel='HotDog icon enabled']", 30000, null, "899f0ef5-411d-4232-ad12-dafe851f1ec5");
+                _logouttesta1Info = new RepoItemInfo(this, "LogOutTestA1", ".//table/?/?/cell[@accessibilitylabel='Log out TestA']/text[@accessibilitylabel='Log out TestA']", 30000, null, "135a8491-7e2d-4d8a-b3dc-364286d1f37e");
             }
 
             /// <summary>
@@ -529,6 +553,294 @@ namespace IOS_EdgeVisClient
                 get
                 {
                     return _buttonokInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MANAGE item.
+            /// </summary>
+            [RepositoryItem("06c10de1-549c-4858-85e2-e62f8643fe02")]
+            public virtual Ranorex.Button MANAGE
+            {
+                get
+                {
+                    return _manageInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MANAGE item info.
+            /// </summary>
+            [RepositoryItemInfo("06c10de1-549c-4858-85e2-e62f8643fe02")]
+            public virtual RepoItemInfo MANAGEInfo
+            {
+                get
+                {
+                    return _manageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EDIT item.
+            /// </summary>
+            [RepositoryItem("8f9188bb-f951-4479-afbf-9f3a573dc6bf")]
+            public virtual Ranorex.Button EDIT
+            {
+                get
+                {
+                    return _editInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EDIT item info.
+            /// </summary>
+            [RepositoryItemInfo("8f9188bb-f951-4479-afbf-9f3a573dc6bf")]
+            public virtual RepoItemInfo EDITInfo
+            {
+                get
+                {
+                    return _editInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Username item.
+            /// </summary>
+            [RepositoryItem("d7d5aec6-3175-4c9f-a73f-f46eb546798f")]
+            public virtual Ranorex.Text Username
+            {
+                get
+                {
+                    return _usernameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Username item info.
+            /// </summary>
+            [RepositoryItemInfo("d7d5aec6-3175-4c9f-a73f-f46eb546798f")]
+            public virtual RepoItemInfo UsernameInfo
+            {
+                get
+                {
+                    return _usernameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Password item.
+            /// </summary>
+            [RepositoryItem("b18c570f-7c5b-4433-84d0-f45779863c28")]
+            public virtual Ranorex.Text Password
+            {
+                get
+                {
+                    return _passwordInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Password item info.
+            /// </summary>
+            [RepositoryItemInfo("b18c570f-7c5b-4433-84d0-f45779863c28")]
+            public virtual RepoItemInfo PasswordInfo
+            {
+                get
+                {
+                    return _passwordInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SAVE item.
+            /// </summary>
+            [RepositoryItem("e2691a0d-bc2d-4bdc-af20-825560bceb50")]
+            public virtual Ranorex.Button SAVE
+            {
+                get
+                {
+                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SAVE item info.
+            /// </summary>
+            [RepositoryItemInfo("e2691a0d-bc2d-4bdc-af20-825560bceb50")]
+            public virtual RepoItemInfo SAVEInfo
+            {
+                get
+                {
+                    return _saveInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CONNECT item.
+            /// </summary>
+            [RepositoryItem("4c97ae9c-9cae-42d7-974c-06dbe78c56e2")]
+            public virtual Ranorex.Button CONNECT
+            {
+                get
+                {
+                    return _connectInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CONNECT item info.
+            /// </summary>
+            [RepositoryItemInfo("4c97ae9c-9cae-42d7-974c-06dbe78c56e2")]
+            public virtual RepoItemInfo CONNECTInfo
+            {
+                get
+                {
+                    return _connectInfo;
+                }
+            }
+
+            /// <summary>
+            /// The P2 item.
+            /// </summary>
+            [RepositoryItem("8e77becc-0098-48ca-9201-4b05c2d70f04")]
+            public virtual Ranorex.Text P2
+            {
+                get
+                {
+                    return _p2Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The P2 item info.
+            /// </summary>
+            [RepositoryItemInfo("8e77becc-0098-48ca-9201-4b05c2d70f04")]
+            public virtual RepoItemInfo P2Info
+            {
+                get
+                {
+                    return _p2Info;
+                }
+            }
+
+            /// <summary>
+            /// The CONNECT1 item.
+            /// </summary>
+            [RepositoryItem("7015c1f7-4507-4698-ad73-2063902f5689")]
+            public virtual Ranorex.Button CONNECT1
+            {
+                get
+                {
+                    return _connect1Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CONNECT1 item info.
+            /// </summary>
+            [RepositoryItemInfo("7015c1f7-4507-4698-ad73-2063902f5689")]
+            public virtual RepoItemInfo CONNECT1Info
+            {
+                get
+                {
+                    return _connect1Info;
+                }
+            }
+
+            /// <summary>
+            /// The IsTheFrontEndApplicationFromDigita1 item.
+            /// </summary>
+            [RepositoryItem("36c70758-6a3a-437c-bae4-55ac9f9d74d0")]
+            public virtual Ranorex.PTag IsTheFrontEndApplicationFromDigita1
+            {
+                get
+                {
+                    return _isthefrontendapplicationfromdigita1Info.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IsTheFrontEndApplicationFromDigita1 item info.
+            /// </summary>
+            [RepositoryItemInfo("36c70758-6a3a-437c-bae4-55ac9f9d74d0")]
+            public virtual RepoItemInfo IsTheFrontEndApplicationFromDigita1Info
+            {
+                get
+                {
+                    return _isthefrontendapplicationfromdigita1Info;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK1 item.
+            /// </summary>
+            [RepositoryItem("fdb96fab-d9b3-4db5-a4db-6ed7e23db111")]
+            public virtual Ranorex.Button ButtonOK1
+            {
+                get
+                {
+                    return _buttonok1Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK1 item info.
+            /// </summary>
+            [RepositoryItemInfo("fdb96fab-d9b3-4db5-a4db-6ed7e23db111")]
+            public virtual RepoItemInfo ButtonOK1Info
+            {
+                get
+                {
+                    return _buttonok1Info;
+                }
+            }
+
+            /// <summary>
+            /// The RightsideOptions item.
+            /// </summary>
+            [RepositoryItem("899f0ef5-411d-4232-ad12-dafe851f1ec5")]
+            public virtual Ranorex.Button RightsideOptions
+            {
+                get
+                {
+                    return _rightsideoptionsInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RightsideOptions item info.
+            /// </summary>
+            [RepositoryItemInfo("899f0ef5-411d-4232-ad12-dafe851f1ec5")]
+            public virtual RepoItemInfo RightsideOptionsInfo
+            {
+                get
+                {
+                    return _rightsideoptionsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LogOutTestA1 item.
+            /// </summary>
+            [RepositoryItem("135a8491-7e2d-4d8a-b3dc-364286d1f37e")]
+            public virtual Ranorex.Text LogOutTestA1
+            {
+                get
+                {
+                    return _logouttesta1Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LogOutTestA1 item info.
+            /// </summary>
+            [RepositoryItemInfo("135a8491-7e2d-4d8a-b3dc-364286d1f37e")]
+            public virtual RepoItemInfo LogOutTestA1Info
+            {
+                get
+                {
+                    return _logouttesta1Info;
                 }
             }
         }

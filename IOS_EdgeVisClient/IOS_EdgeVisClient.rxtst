@@ -3,6 +3,20 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="0981e9bb-5508-493e-a444-1bddc47123ee"
+			name="Manage"
+			ref="1d35d2e8-ff85-42d0-8e8c-430ef378c065"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="IOS_Devices"
+					datasourceid="9094e5d6-6750-423e-a268-2f3fa062ce1a"
+					variableid="bbe92765-dbdd-48b9-86c5-51f96148c910"
+					variablename="varMobileDevice">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="0fe6352a-f613-468a-a1c8-e55ada0a7b88"
 			name="Delay2s"
 			ref="694ee913-6a92-4222-8392-4eaac2c6ed15"
@@ -32,6 +46,11 @@
 			ref="27b805c7-b7a3-499c-949d-7e91b1b392f6"
 			type="Recording">
 			</testmodule>
+			<testcase
+			datasource="NewConnector1"
+			id="218d7b3c-cb2a-4fba-b2a8-1fd777afb131"
+			name="LoginusingManageButton_IOS">
+			</testcase>
 			<testmodule
 			id="2691678b-aad1-4f82-9c1d-36c0d4c43a1b"
 			name="Connect2_Click"
@@ -279,6 +298,14 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="218d7b3c-cb2a-4fba-b2a8-1fd777afb131"
+					name="LoginusingManageButton_IOS">
+						<testmodule
+						id="0981e9bb-5508-493e-a444-1bddc47123ee"
+						name="Manage">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -286,7 +313,7 @@
 	<datasources>
 		<DataSource
 		id="d59a5546-7bfa-4565-a0c7-77f0b80b394e"
-		lastknownrowcount="2"
+		lastknownrowcount="1"
 		name="NewConnector"
 		type="Ranorex.Core.Data.SimpleDataConnector">
 			<lastknowncolumns>
@@ -304,12 +331,47 @@
 				</tr>
 				<tr>
 					<td>
-						Test iPhone
+						Jenkins's iPad
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		id="9094e5d6-6750-423e-a268-2f3fa062ce1a"
+		lastknownrowcount="2"
+		name="NewConnector1"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					IOS_Devices
+				</column>
+				<column>
+					NewColumn1
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						IOS_Devices
+					</th>
+					<th>
+						NewColumn1
+					</th>
+				</tr>
+				<tr>
+					<td>
+						RamyaKadali's iPhone
+					</td>
+					<td>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						Jenkins's iPad
+						Jenkin's iPad
+					</td>
+					<td>
 					</td>
 				</tr>
 			</table>
@@ -319,6 +381,12 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="c69bf691-6556-439f-8eb1-a62f11a3352e">
+			</testcontainer>
+			<testcontainer
+			id="fd702d03-f6f9-4391-866d-2661fe740555">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
