@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="694ee913-6a92-4222-8392-4eaac2c6ed15"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Delay2s"
+	namespace="IOS_EdgeVisClient">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="5666e6bc-3b12-4579-be14-b3b8ee8104cb"
+	name="IOS_EdgeVisClientRepository"
+	relativepath="IOS_EdgeVisClientRepository.rxrep">
+		<codegen
+		classname="IOS_EdgeVisClientRepository"
+		namespace="IOS_EdgeVisClient">
+		</codegen>
+		<rootfolder
+		id="b8927673-a583-48dd-bb7e-d1a764d6d53d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Delay2s.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

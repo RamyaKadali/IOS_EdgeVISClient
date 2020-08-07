@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8166e2d3-35fa-4036-b5d0-53258fdbb49c"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Connect_Click"
+	namespace="IOS_EdgeVisClient">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="38cab359-42d4-495f-a9fc-6e99dcf91f34"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a6e9e345-e041-44ca-8ba9-a1602b79604c"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//table[@accessibilitylabel='Empty list']//button[@accessibilitylabel='CONNECT']
+				</path>
+			</info>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	id="5666e6bc-3b12-4579-be14-b3b8ee8104cb"
+	name="IOS_EdgeVisClientRepository"
+	relativepath="IOS_EdgeVisClientRepository.rxrep">
+		<codegen
+		classname="IOS_EdgeVisClientRepository"
+		namespace="IOS_EdgeVisClient">
+		</codegen>
+		<rootfolder
+		id="b8927673-a583-48dd-bb7e-d1a764d6d53d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Connect_Click.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

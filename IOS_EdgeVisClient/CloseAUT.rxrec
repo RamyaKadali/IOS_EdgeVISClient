@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b1267078-f244-4765-b86d-5f6345c47066"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="IOS_EdgeVisClient">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="70f5ff95-d75b-4a09-94e6-a6c3acbba699">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dd7154de-1c9d-495d-aeee-819a38bd25a1"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="5666e6bc-3b12-4579-be14-b3b8ee8104cb"
+	name="IOS_EdgeVisClientRepository"
+	relativepath="IOS_EdgeVisClientRepository.rxrep">
+		<codegen
+		classname="IOS_EdgeVisClientRepository"
+		namespace="IOS_EdgeVisClient">
+		</codegen>
+		<rootfolder
+		id="b8927673-a583-48dd-bb7e-d1a764d6d53d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

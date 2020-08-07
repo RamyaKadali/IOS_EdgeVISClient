@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6825197b-50bd-4eb9-a0ca-fec4642f2e5a"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="IOS_EdgeVisClient">
+	</codegen>
+	<variables>
+		<var
+		id="39e13927-f56d-4e2f-8fde-4c948b82f584"
+		name="varMobileDevice">
+			Jenkins's iPad
+		</var>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="5666e6bc-3b12-4579-be14-b3b8ee8104cb"
+	name="IOS_EdgeVisClientRepository"
+	relativepath="IOS_EdgeVisClientRepository.rxrep">
+		<codegen
+		classname="IOS_EdgeVisClientRepository"
+		namespace="IOS_EdgeVisClient">
+		</codegen>
+		<rootfolder
+		id="b8927673-a583-48dd-bb7e-d1a764d6d53d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

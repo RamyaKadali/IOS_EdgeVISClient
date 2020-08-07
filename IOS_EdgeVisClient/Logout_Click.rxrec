@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7fee608d-94df-40e3-b6d6-8641efffcfda"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout_Click"
+	namespace="IOS_EdgeVisClient">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="4b5bb05c-5130-49ae-a224-8b298e95aaf5"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="430a0c44-b239-436e-badc-cdadbcf78a61"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="ioselement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="792,215,217,30"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Log out TestA
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						Log out TestA
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UILabel
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						189074320
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form//table[@accessibilitylabel='Empty list']/?/?/cell[@accessibilitylabel='Log out TestA']/text[@accessibilitylabel='Log out TestA']
+				</path>
+			</info>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	id="5666e6bc-3b12-4579-be14-b3b8ee8104cb"
+	name="IOS_EdgeVisClientRepository"
+	relativepath="IOS_EdgeVisClientRepository.rxrep">
+		<codegen
+		classname="IOS_EdgeVisClientRepository"
+		namespace="IOS_EdgeVisClient">
+		</codegen>
+		<rootfolder
+		id="b8927673-a583-48dd-bb7e-d1a764d6d53d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout_Click.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

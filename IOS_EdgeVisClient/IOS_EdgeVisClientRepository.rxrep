@@ -1,0 +1,185 @@
+﻿<repository
+id="5666e6bc-3b12-4579-be14-b3b8ee8104cb"
+name="IOS_EdgeVisClientRepository">
+	<codegen
+	classname="IOS_EdgeVisClientRepository"
+	namespace="IOS_EdgeVisClient">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b8927673-a583-48dd-bb7e-d1a764d6d53d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="unknown,mobileapp,iosapp"
+		capname="mobileapp"
+		id="dd7154de-1c9d-495d-aeee-819a38bd25a1"
+		isrooted="True"
+		name="ComDigitalbarriersEdgeVisClient"
+		refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,ioselement,mobileuielement"
+			capname="container"
+			id="acee4ccb-e04d-494a-b921-cb159899d732"
+			isrooted="True"
+			name="ViewControllerWrapper"
+			refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,ioselement,mobileuielement"
+				capname="button"
+				id="17f9765c-a806-4d30-94c1-4f393aa62bba"
+				name="Click_MANAGE"
+				refimgid="712493e6-bea7-4148-9ec8-62d7c8ffc2fe"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[3]/container[2]/button[@accessibilitylabel='MANAGE']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//button[@accessibilitylabel='MANAGE']
+				</item>
+				<item
+				addcaps="text,ioselement,mobileuielement"
+				capname="text"
+				id="391dced0-92a7-41d6-8057-d06ed86b7e08"
+				name="Enter_Username"
+				refimgid="e1896c7c-c490-43a8-8022-b7d81c21101d"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']/container[@caption='']/text[3]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//container[@containertype='LayoutContainer']/container[@caption='']/container/text[3]
+				</item>
+				<item
+				addcaps="button,ioselement,mobileuielement"
+				capname="button"
+				id="4332a436-5d1c-4752-a271-d37cb519624d"
+				name="Click_EDIT"
+				refimgid="48afdbba-5197-4fbe-b59b-fa71e8aac66f"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[3]/table[@accessibilitylabel='Empty list']/container[@caption='']/cell/container[@caption='']/button[@accessibilitylabel='EDIT']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//table[@accessibilitylabel='Empty list']//button[@accessibilitylabel='EDIT']
+				</item>
+				<item
+				addcaps="text,ioselement,mobileuielement"
+				capname="text"
+				id="5c81302d-ebc1-44c2-a955-5e88d506de11"
+				name="Enter_PW"
+				refimgid="a902957a-bb50-4326-8a25-590c08a8699f"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']/container[@caption='']/text[5]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//container[@containertype='LayoutContainer']/container[@caption='']/container/text[5]
+				</item>
+				<item
+				addcaps="button,ioselement,mobileuielement"
+				capname="button"
+				id="2debd706-ad9f-40e9-a32c-f458fae7f286"
+				name="SAVE_Click"
+				refimgid="1f96945e-e7d7-4da4-93c5-266c4a3ec34f"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']/container[@caption='']/button[@accessibilitylabel='SAVE']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//container[@containertype='LayoutContainer']/container[@caption='']/?/?/button[@accessibilitylabel='SAVE']
+				</item>
+				<item
+				addcaps="button,ioselement,mobileuielement"
+				capname="button"
+				id="a6e9e345-e041-44ca-8ba9-a1602b79604c"
+				name="CONNECT_Click"
+				refimgid="3fc3ee40-03e1-43b2-96c2-64bcce26f764"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[3]/table[@accessibilitylabel='Empty list']/container[@caption='']/cell/container[@caption='']/button[@accessibilitylabel='CONNECT']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//table[@accessibilitylabel='Empty list']//button[@accessibilitylabel='CONNECT']
+				</item>
+				<item
+				addcaps="text,ioselement,mobileuielement"
+				capname="text"
+				id="5260859e-5450-4541-9332-a6c4c8b3e4d2"
+				name="Enter_PW2"
+				refimgid="516c6d24-8759-41d9-b551-3511726c5f4e"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']/container[@caption='']/text[4]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//container[@containertype='LayoutContainer']/container[@caption='']/container/text[4]
+				</item>
+				<item
+				addcaps="button,ioselement,mobileuielement"
+				capname="button"
+				id="376c4848-2451-4889-a12c-48c92b5eaa1f"
+				name="ViewOptions_Right"
+				refimgid="34272702-15db-4ded-abc8-c143e3014ef4"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/button[@accessibilitylabel='HotDog icon enabled']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//button[@accessibilitylabel='HotDog icon enabled']
+				</item>
+				<item
+				addcaps="button,ioselement,mobileuielement"
+				capname="button"
+				id="357480d1-7bc9-4fb1-90e7-a1244548be41"
+				name="CONNECT2_Click"
+				refimgid="1559df7a-0856-429e-b7f7-500b8f819a9d"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='LayoutContainer']/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']/container[@caption='']/button[@accessibilitylabel='CONNECT']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']//container[@containertype='LayoutContainer']/container[@caption='']/?/?/button[@accessibilitylabel='CONNECT']
+				</item>
+				<basepath>
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@containertype='LayoutContainer']/container[@caption='']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="form,ioselement,mobileuielement"
+			capname="form"
+			id="737223a8-05fb-4d74-9867-34c51158def7"
+			isrooted="True"
+			name="UIWindow"
+			refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,ptag,webelement,mobileuielement"
+				capname="ptag"
+				id="af5e69e5-652a-45f0-96f2-3f713caa7f8c"
+				name="IsTheFrontEndApplicationFromDigita"
+				refimgid="f047488c-a160-4de6-9202-e37ca42b10ba"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[4]/container[@caption='']/container[@caption='']/container[2]/dom[@caption='- Help']/body/div/div/div/main/article/section/p[@innertext='is the front end application from Digital Barriers.']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form//dom[@caption='- Help']/body/div/div//article/section/p[@innertext&gt;'is the front end application']
+				</item>
+				<item
+				addcaps="text,ioselement,mobileuielement"
+				capname="text"
+				id="430a0c44-b239-436e-badc-cdadbcf78a61"
+				name="LogOutTestA"
+				refimgid="c96580b2-cdae-46d9-9e27-593e7f7acdc8"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[@caption='' and @containertype='Popover']/container[@caption='' and @containertype='']/container[@caption='']/table[@accessibilitylabel='Empty list']/container[5]/cell[@accessibilitylabel='Log out TestA']/text[@accessibilitylabel='Log out TestA']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form//table[@accessibilitylabel='Empty list']/?/?/cell[@accessibilitylabel='Log out TestA']/text[@accessibilitylabel='Log out TestA']
+				</item>
+				<item
+				addcaps="button,ioselement,mobileuielement"
+				capname="button"
+				id="3b045cad-2345-47f0-bddc-820d0095dc73"
+				name="ButtonOK"
+				refimgid="44a8f37c-75a1-4e5e-af2f-748771fb3148"
+				refpath="/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[4]/container[@caption='']/container[@caption='']/container[3]/button[@accessibilitylabel='OK']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form/container[4]//button[@accessibilitylabel='OK']
+				</item>
+				<basepath>
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form
+				</basepath>
+			</folder>
+			<basepath>
+				/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABNSURBVDhPY6A6CA0NWQ/E//Hg9VClmAAo
+KYCmGCuGKscEQEmwAVAuVkBInqCCUQNGjgGEMFQpdoBLIS5xDABU0ICsGAtugCqlBmBgAAAcoXfL
+E78sAQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

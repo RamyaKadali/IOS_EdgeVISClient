@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="IOS_EdgeVisClient"
+      id="72ea368a-b7a9-4eda-aa07-ec4091911fe2"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="IOS_EdgeVisClient"
+      id="72ea368a-b7a9-4eda-aa07-ec4091911fe2"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

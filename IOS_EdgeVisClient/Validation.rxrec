@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8a59bb96-b583-4c5b-96c2-71242a27bcf9"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validation"
+	namespace="IOS_EdgeVisClient">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeContains"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b861c2c3-3bb9-4fdb-b4c4-ccdf0d55d89f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="af5e69e5-652a-45f0-96f2-3f713caa7f8c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="ptag, webelement, mobileuielement"
+				dontcache="False"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="ptag"
+				rect="261,423,502,54"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						is the front end application from Digital Barriers.
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						-121
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form//dom[@caption='- Help']/body/div/div//article/section/p[@innertext&gt;'is the front end application']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				is the front end application from Digital Barriers.
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="5666e6bc-3b12-4579-be14-b3b8ee8104cb"
+	name="IOS_EdgeVisClientRepository"
+	relativepath="IOS_EdgeVisClientRepository.rxrep">
+		<codegen
+		classname="IOS_EdgeVisClientRepository"
+		namespace="IOS_EdgeVisClient">
+		</codegen>
+		<rootfolder
+		id="b8927673-a583-48dd-bb7e-d1a764d6d53d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
